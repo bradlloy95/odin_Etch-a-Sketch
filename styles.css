@@ -1,0 +1,33 @@
+#mainContainer {
+    display: flex;
+
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+
+    button {
+        background-color: aqua;
+        border-radius: 10%;
+        border-color: white;
+        padding: 10px;
+    }
+}
+
+
+
+#sketch {
+    width: 512px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid blue;
+    
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    
+}
